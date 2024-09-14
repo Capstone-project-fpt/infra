@@ -1,0 +1,17 @@
+# Terraform-related files and directories
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+*.tfplan
+.terraform.lock.hcl
+
+# Local AWS credentials (ensure credentials are handled securely via IAM roles or environment variables)
+.aws/
+
+# MacOS-specific files
+.DS_Store
+
+# IDE-related files (optional but recommended)
+.idea/
+.vscode/
